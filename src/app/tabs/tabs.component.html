@@ -1,17 +1,17 @@
 <div class="tabs">
-    <div class="tab bookmarks-tab">
+    <div [routerLink]="['/bookmarks']" routerLinkActive="active" class="tab bookmarks-tab">
         <div class="tab-tile">
-            <i class="material-symbols-outlined">stars</i>
+            <i class="material-symbols-outlined">bookmark</i>
         </div>
     </div>
-    <div class="tab todos-tab">
+    <div [routerLink]="['/tasks']" routerLinkActive="active" class="tab todos-tab">
         <div class="tab-tile">
             <i class="material-symbols-outlined">task_alt</i>
         </div>
     </div>
-    <div class="tab notes-tab">
+    <div [routerLink]="['/notes']" routerLinkActive="active" class="tab notes-tab">
         <div class="tab-tile">
-            <i class="material-symbols-outlined">draft_orders</i>
+            <i class="material-symbols-outlined">notes</i>
         </div>
     </div>
 
