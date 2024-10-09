@@ -1,7 +1,7 @@
 <div class="app-wrapper">
   <div class="top-section">
-    <h1>19:00</h1>
-    <h2>01 January 2020</h2>
+    <h1>{{getDateTime() | date:'h:mm'}}</h1>
+    <h2>{{getDateTime() | date: 'd MMMM y'}}</h2>
   </div>
   <div class="content-section">
     <router-outlet></router-outlet>

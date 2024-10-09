@@ -34,4 +34,7 @@ export class AppComponent implements OnInit {
         }
       });
   }
+  getDateTime() {
+    return new Date();
+  }
 }
